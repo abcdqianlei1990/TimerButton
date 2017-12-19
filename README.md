@@ -3,10 +3,10 @@
 倒计时按钮，支持继续上次的倒计时
 
 ## autoCounting = true
-![image](https://github.com/abcdqianlei1990/TimerButton/blob/master/gif/autocounting.gif)
+![image](https://github.com/abcdqianlei1990/TimerButton/blob/master/gif/autoCountingTrue.gif)
 
 ## autoCounting = false
-![image](https://github.com/abcdqianlei1990/TimerButton/blob/master/gif/autocountingFalse.gif)
+![image](https://github.com/abcdqianlei1990/TimerButton/blob/master/gif/autoCountingFalse.gif)
 
 ## How to do
 ### step 1.Add it in your root build.gradle at the end of repositories:
