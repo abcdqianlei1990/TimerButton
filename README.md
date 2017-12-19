@@ -15,7 +15,7 @@ see ![sample](https://github.com/abcdqianlei1990/TimerButton/tree/master/sample)
 |name|note|
 |:----|:------|
 |autoCounting|if need auto counting|
-|countingStart|count down from ${countingStart}|
+|countingStart|counting down from ${countingStart}|
 
 ## How to do
 ### step 1.Add it in your root build.gradle at the end of repositories:
