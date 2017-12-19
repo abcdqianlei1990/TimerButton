@@ -17,6 +17,7 @@ public class SecondActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 timerButton.start();
+                //do something like request api
             }
         });
 
