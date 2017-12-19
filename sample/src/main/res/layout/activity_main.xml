@@ -20,6 +20,7 @@
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
         android:gravity="center"
-        android:text="jump to activity2"/>
+        android:textSize="20sp"
+        android:text="jump to second activity"/>
 
 </android.support.constraint.ConstraintLayout>

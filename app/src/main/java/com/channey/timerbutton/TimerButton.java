@@ -162,7 +162,6 @@ public class TimerButton extends android.support.v7.widget.AppCompatTextView{
     }
 
     public void setButtonClickable(boolean clickable) {
-        setEnabled(clickable);
         setClickable(clickable);
     }
 

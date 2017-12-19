@@ -24,12 +24,12 @@ public class SecondActivity extends AppCompatActivity {
         timerButton.setOnCountingListener(new TimerButton.CountingListener() {
             @Override
             public void onCounting(long time) {
-                timerButton.setText(time / 1000 + "后重试");
+                timerButton.setText(time / 1000 + "s");
             }
 
             @Override
             public void onCountingFinish() {
-                timerButton.setText("获取验证码");
+                timerButton.setText("click");
             }
         });
     }
