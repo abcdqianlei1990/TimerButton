@@ -1,4 +1,4 @@
-[![GitHub release](https://img.shields.io/github/release/abcdqianlei1990/TimerButton.svg)](https://github.com/abcdqianlei1990/TimerButton/releases)
+[![GitHub release](https://img.shields.io/github/release/abcdqianlei1990/TimerButton.svg](https://github.com/abcdqianlei1990/TimerButton/releases)
 # TimerButton
 倒计时按钮，支持继续上次的倒计时
 
