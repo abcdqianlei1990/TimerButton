@@ -8,6 +8,8 @@
 ## autoCounting = false
 ![image](https://github.com/abcdqianlei1990/TimerButton/blob/master/gif/autoCountingFalse.gif)
 
+## Sample
+see ![sample](https://github.com/abcdqianlei1990/TimerButton/tree/master/sample)
 ## How to do
 ### step 1.Add it in your root build.gradle at the end of repositories:
 ```groovy
