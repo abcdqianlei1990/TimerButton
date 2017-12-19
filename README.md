@@ -12,10 +12,10 @@
 see ![sample](https://github.com/abcdqianlei1990/TimerButton/tree/master/sample)
 
 ## Attrs
-|name|note|
-|:----|:------|
-|autoCounting|if need auto counting|
-|countingStart|counting down from ${countingStart}|
+|name|type|note|
+|:----|:------|:------|
+|autoCounting|boolean|if need auto counting|
+|countingStart|int|counting down from ${countingStart}|
 
 ## How to do
 ### step 1.Add it in your root build.gradle at the end of repositories:
