@@ -7,8 +7,6 @@ import android.os.Message;
 import android.util.AttributeSet;
 import android.util.Log;
 
-import com.channey.utils.SharedPreferencesUtils;
-
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -166,17 +164,17 @@ public class TimerButton extends android.support.v7.widget.AppCompatTextView{
     }
 
     public void saveTick(long tick){
-        SharedPreferencesUtils.INSTANCE.saveLong(mContext,String.valueOf(getId()),tick);
+        SharedPreferencesUtils.saveLong(mContext,String.valueOf(getId()),tick);
 //        Log.d(TAG,"saveTick key : "+String.valueOf(getId())+", tick："+tick);
     }
 
     public long pickTick(){
-        long aLong = SharedPreferencesUtils.INSTANCE.getLong(mContext, String.valueOf(getId()));
+        long aLong = SharedPreferencesUtils.getLong(mContext, String.valueOf(getId()));
 //        Log.d(TAG,"pickTick key : "+String.valueOf(getId())+",tick："+aLong);
         return aLong;
     }
 
     public void clearTick(){
-        SharedPreferencesUtils.INSTANCE.remove(mContext,String.valueOf(getId()));
+        SharedPreferencesUtils.remove(mContext,String.valueOf(getId()));
     }
 }
