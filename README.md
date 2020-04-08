@@ -33,6 +33,6 @@ see ![sample](https://github.com/abcdqianlei1990/TimerButton/tree/master/sample)
 ```groovy
 	dependencies {
           ...
-	        compile 'com.github.abcdqianlei1990:TimerButton:2.2'
+	        compile 'com.github.abcdqianlei1990:TimerButton:2.3'
 	}
 ```
