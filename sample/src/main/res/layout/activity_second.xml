@@ -24,8 +24,7 @@
         android:text="click"
         android:textColor="@android:color/holo_red_dark"
         android:textSize="50sp"
-        app:TimerButton_autoCounting="true"
-        app:TimerButton_from="10000"
+        app:TimerButton_from="30000"
         app:TimerButton_countingTextColor="@android:color/darker_gray"
         app:TimerButton_countingBackground="@drawable/shape_countdown2"/>
 </android.support.constraint.ConstraintLayout>

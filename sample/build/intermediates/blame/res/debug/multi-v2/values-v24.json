@@ -4,7 +4,7 @@
             "outputFile": "/Users/channey/projects_github/TimerButton/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/Users/channey/.gradle/caches/transforms-2/files-2.1/8426f1da5b1e0141f1ca8f67fc26d71c/res/values-v24/values-v24.xml",
+                    "source": "/Users/channey/.gradle/caches/transforms-2/files-2.1/2780b129cb70b287f5f7f0be87b9c474/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/channey/.gradle/caches/transforms-2/files-2.1/63f118e0cd6566d9f9cc886a327244b0/res/values-v24/values-v24.xml",
+                    "source": "/Users/channey/.gradle/caches/transforms-2/files-2.1/76c49b5a004039601e0475dbbc41773a/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",

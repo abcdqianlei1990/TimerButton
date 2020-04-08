@@ -20,7 +20,6 @@ public class SecondActivity extends AppCompatActivity {
                 //do something like request api
             }
         });
-
         timerButton.setOnCountingListener(new TimerButton.CountingListener() {
             @Override
             public void onCounting(long time) {

@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.channey.timerbutton"
-    android:versionCode="2"
-    android:versionName="2.0" > <!-- <application -->
+    android:versionCode="3"
+    android:versionName="2.1" > <!-- <application -->
     <!-- android:supportsRtl="true" -->
     <!-- tools:replace="android:allowBackup"></application> -->
     <uses-sdk
