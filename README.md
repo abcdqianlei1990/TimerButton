@@ -14,8 +14,10 @@ see ![sample](https://github.com/abcdqianlei1990/TimerButton/tree/master/sample)
 ## Attrs
 |name|type|note|
 |:----|:------|:------|
-|autoCounting|boolean|if need auto counting|
-|countingStart|int|counting down from ${countingStart}|
+|TimerButton_autoCounting|boolean|if need auto counting|
+|TimerButton_from|int|counting down from ${TimerButton_from}|
+|TimerButton_countingTextColor|color|The color of the text in the countdown|
+|TimerButton_countingBackground|int|The background of the widget in the countdown|
 
 ## How to do
 ### step 1.Add it in your root build.gradle at the end of repositories:
@@ -31,6 +33,6 @@ see ![sample](https://github.com/abcdqianlei1990/TimerButton/tree/master/sample)
 ```groovy
 	dependencies {
           ...
-	        compile 'com.github.abcdqianlei1990:TimerButton:1.1'
+	        compile 'com.github.abcdqianlei1990:TimerButton:2.1'
 	}
 ```
