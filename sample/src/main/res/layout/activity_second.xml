@@ -15,14 +15,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginTop="10dp"
-        android:background="#FF8900"
+        android:background="@drawable/shape_countdown"
         android:paddingBottom="5dp"
         android:paddingTop="5dp"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
         android:gravity="center"
         android:text="click"
+        android:textColor="@android:color/holo_red_dark"
         android:textSize="50sp"
-        app:autoCounting="true"
-        app:countingStart="10000"/>
+        app:TimerButton_autoCounting="true"
+        app:TimerButton_from="10000"
+        app:TimerButton_countingTextColor="@android:color/darker_gray"
+        app:TimerButton_countingBackground="@drawable/shape_countdown2"/>
 </android.support.constraint.ConstraintLayout>

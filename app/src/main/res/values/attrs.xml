@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="TimerButton">
-        <attr name="autoCounting" format="boolean"/>
-        <attr name="countingStart" format="integer"/>
+        <attr name="TimerButton_autoCounting" format="boolean"/>
+        <attr name="TimerButton_from" format="integer"/>
+        <attr name="TimerButton_countingTextColor" format="color"/>
+        <attr name="TimerButton_countingBackground" format="reference"/>
     </declare-styleable>
 </resources>

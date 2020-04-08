@@ -28,7 +28,7 @@ public class SecondActivity extends AppCompatActivity {
             }
 
             @Override
-            public void onCountingFinish() {
+            public void onFinished() {
                 timerButton.setText("click");
             }
         });

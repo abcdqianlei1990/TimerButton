@@ -1,0 +1,163 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/channey/projects_github/TimerButton/sample/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/channey/projects_github/TimerButton/sample/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/channey/projects_github/TimerButton/sample/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/channey/projects_github/TimerButton/sample/src/main/AndroidManifest.xml:2:1-24:12
+MERGED from [:app] /Users/channey/projects_github/TimerButton/app/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/63f118e0cd6566d9f9cc886a327244b0/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/channey/.gradle/caches/transforms-2/files-2.1/aac3e74c0c52dce82ead1801be7f227f/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/263d446516deab6a064a6a71b64a14aa/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/edec6f0c913486a188a4f31892c5c370/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/6e1dc38a71925afbf654b4f894a8e5dd/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/8426f1da5b1e0141f1ca8f67fc26d71c/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/43a8acb3a113dd86f35a1bf387794976/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/f2e50184969d33697ae15edd7d081072/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/8a98f94d5f32a1486b7dd1b35b9d9ed4/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/9ea35a571508a945877c9a8d4b939184/AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/a335f995b013e381967e77199b4712a3/AndroidManifest.xml:17:1-30:12
+INJECTED from /Users/channey/projects_github/TimerButton/sample/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/channey/projects_github/TimerButton/sample/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/channey/projects_github/TimerButton/sample/src/main/AndroidManifest.xml:2:1-24:12
+	package
+		ADDED from /Users/channey/projects_github/TimerButton/sample/src/main/AndroidManifest.xml:4:5-33
+		INJECTED from /Users/channey/projects_github/TimerButton/sample/src/main/AndroidManifest.xml
+		INJECTED from /Users/channey/projects_github/TimerButton/sample/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/channey/projects_github/TimerButton/sample/src/main/AndroidManifest.xml
+		ADDED from /Users/channey/projects_github/TimerButton/sample/src/main/AndroidManifest.xml:2:1-24:12
+		INJECTED from /Users/channey/projects_github/TimerButton/sample/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/channey/projects_github/TimerButton/sample/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/channey/projects_github/TimerButton/sample/src/main/AndroidManifest.xml
+		ADDED from /Users/channey/projects_github/TimerButton/sample/src/main/AndroidManifest.xml:2:1-24:12
+		INJECTED from /Users/channey/projects_github/TimerButton/sample/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/channey/projects_github/TimerButton/sample/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/channey/projects_github/TimerButton/sample/src/main/AndroidManifest.xml:6:5-22:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/63f118e0cd6566d9f9cc886a327244b0/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/63f118e0cd6566d9f9cc886a327244b0/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/channey/.gradle/caches/transforms-2/files-2.1/aac3e74c0c52dce82ead1801be7f227f/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/channey/.gradle/caches/transforms-2/files-2.1/aac3e74c0c52dce82ead1801be7f227f/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/263d446516deab6a064a6a71b64a14aa/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/263d446516deab6a064a6a71b64a14aa/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/edec6f0c913486a188a4f31892c5c370/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/edec6f0c913486a188a4f31892c5c370/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/6e1dc38a71925afbf654b4f894a8e5dd/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/6e1dc38a71925afbf654b4f894a8e5dd/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/8426f1da5b1e0141f1ca8f67fc26d71c/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/8426f1da5b1e0141f1ca8f67fc26d71c/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/43a8acb3a113dd86f35a1bf387794976/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/43a8acb3a113dd86f35a1bf387794976/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/f2e50184969d33697ae15edd7d081072/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/f2e50184969d33697ae15edd7d081072/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/8a98f94d5f32a1486b7dd1b35b9d9ed4/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/8a98f94d5f32a1486b7dd1b35b9d9ed4/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/9ea35a571508a945877c9a8d4b939184/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/9ea35a571508a945877c9a8d4b939184/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/a335f995b013e381967e77199b4712a3/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/a335f995b013e381967e77199b4712a3/AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from /Users/channey/projects_github/TimerButton/sample/src/main/AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from /Users/channey/projects_github/TimerButton/sample/src/main/AndroidManifest.xml:9:9-41
+	android:roundIcon
+		ADDED from /Users/channey/projects_github/TimerButton/sample/src/main/AndroidManifest.xml:10:9-54
+	android:icon
+		ADDED from /Users/channey/projects_github/TimerButton/sample/src/main/AndroidManifest.xml:8:9-43
+	android:allowBackup
+		ADDED from /Users/channey/projects_github/TimerButton/sample/src/main/AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from /Users/channey/projects_github/TimerButton/sample/src/main/AndroidManifest.xml:12:9-40
+	tools:replace
+		ADDED from /Users/channey/projects_github/TimerButton/sample/src/main/AndroidManifest.xml:13:9-44
+activity#com.channey.sample.MainActivity
+ADDED from /Users/channey/projects_github/TimerButton/sample/src/main/AndroidManifest.xml:14:9-20:20
+	android:name
+		ADDED from /Users/channey/projects_github/TimerButton/sample/src/main/AndroidManifest.xml:14:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/channey/projects_github/TimerButton/sample/src/main/AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from /Users/channey/projects_github/TimerButton/sample/src/main/AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from /Users/channey/projects_github/TimerButton/sample/src/main/AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/channey/projects_github/TimerButton/sample/src/main/AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from /Users/channey/projects_github/TimerButton/sample/src/main/AndroidManifest.xml:18:27-74
+activity#com.channey.sample.SecondActivity
+ADDED from /Users/channey/projects_github/TimerButton/sample/src/main/AndroidManifest.xml:21:9-76
+	android:exported
+		ADDED from /Users/channey/projects_github/TimerButton/sample/src/main/AndroidManifest.xml:21:50-74
+	android:name
+		ADDED from /Users/channey/projects_github/TimerButton/sample/src/main/AndroidManifest.xml:21:19-49
+uses-sdk
+INJECTED from /Users/channey/projects_github/TimerButton/sample/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/channey/projects_github/TimerButton/sample/src/main/AndroidManifest.xml
+INJECTED from /Users/channey/projects_github/TimerButton/sample/src/main/AndroidManifest.xml
+MERGED from [:app] /Users/channey/projects_github/TimerButton/app/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-11:41
+MERGED from [:app] /Users/channey/projects_github/TimerButton/app/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-11:41
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/63f118e0cd6566d9f9cc886a327244b0/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/63f118e0cd6566d9f9cc886a327244b0/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/channey/.gradle/caches/transforms-2/files-2.1/aac3e74c0c52dce82ead1801be7f227f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/channey/.gradle/caches/transforms-2/files-2.1/aac3e74c0c52dce82ead1801be7f227f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/263d446516deab6a064a6a71b64a14aa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/263d446516deab6a064a6a71b64a14aa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/edec6f0c913486a188a4f31892c5c370/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/edec6f0c913486a188a4f31892c5c370/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/6e1dc38a71925afbf654b4f894a8e5dd/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/6e1dc38a71925afbf654b4f894a8e5dd/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/8426f1da5b1e0141f1ca8f67fc26d71c/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/8426f1da5b1e0141f1ca8f67fc26d71c/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/43a8acb3a113dd86f35a1bf387794976/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/43a8acb3a113dd86f35a1bf387794976/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/f2e50184969d33697ae15edd7d081072/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/f2e50184969d33697ae15edd7d081072/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/8a98f94d5f32a1486b7dd1b35b9d9ed4/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/8a98f94d5f32a1486b7dd1b35b9d9ed4/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/9ea35a571508a945877c9a8d4b939184/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/9ea35a571508a945877c9a8d4b939184/AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/a335f995b013e381967e77199b4712a3/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/a335f995b013e381967e77199b4712a3/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/channey/projects_github/TimerButton/sample/src/main/AndroidManifest.xml
+INJECTED from /Users/channey/projects_github/TimerButton/sample/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/63f118e0cd6566d9f9cc886a327244b0/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/channey/projects_github/TimerButton/sample/src/main/AndroidManifest.xml
+		ADDED from /Users/channey/projects_github/TimerButton/sample/src/main/AndroidManifest.xml
+		INJECTED from /Users/channey/projects_github/TimerButton/sample/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/channey/projects_github/TimerButton/sample/src/main/AndroidManifest.xml
+		ADDED from /Users/channey/projects_github/TimerButton/sample/src/main/AndroidManifest.xml
+		INJECTED from /Users/channey/projects_github/TimerButton/sample/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/63f118e0cd6566d9f9cc886a327244b0/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/263d446516deab6a064a6a71b64a14aa/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/263d446516deab6a064a6a71b64a14aa/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/edec6f0c913486a188a4f31892c5c370/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/edec6f0c913486a188a4f31892c5c370/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/6e1dc38a71925afbf654b4f894a8e5dd/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/6e1dc38a71925afbf654b4f894a8e5dd/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/8426f1da5b1e0141f1ca8f67fc26d71c/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/8426f1da5b1e0141f1ca8f67fc26d71c/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/43a8acb3a113dd86f35a1bf387794976/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/43a8acb3a113dd86f35a1bf387794976/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/f2e50184969d33697ae15edd7d081072/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/f2e50184969d33697ae15edd7d081072/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/8a98f94d5f32a1486b7dd1b35b9d9ed4/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/8a98f94d5f32a1486b7dd1b35b9d9ed4/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/9ea35a571508a945877c9a8d4b939184/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/9ea35a571508a945877c9a8d4b939184/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/63f118e0cd6566d9f9cc886a327244b0/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/63f118e0cd6566d9f9cc886a327244b0/AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/a335f995b013e381967e77199b4712a3/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/a335f995b013e381967e77199b4712a3/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/channey/.gradle/caches/transforms-2/files-2.1/a335f995b013e381967e77199b4712a3/AndroidManifest.xml:26:13-58

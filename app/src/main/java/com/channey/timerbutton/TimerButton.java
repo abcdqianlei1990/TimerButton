@@ -2,10 +2,10 @@ package com.channey.timerbutton;
 
 import android.content.Context;
 import android.content.res.TypedArray;
+import android.graphics.drawable.Drawable;
 import android.os.Handler;
 import android.os.Message;
 import android.util.AttributeSet;
-import android.util.Log;
 
 import java.util.Timer;
 import java.util.TimerTask;
@@ -20,19 +20,23 @@ public class TimerButton extends android.support.v7.widget.AppCompatTextView{
     private Context mContext;
     private long mTick;
     private long mCountingDownStart;    //初始倒计时时间
-    private static final int DOING = 0;
+    private static final int COUNTING = 0;
     private static final int DONE = 1;
     private boolean mAutoCounting = true;   //进入页面自动未完成的倒计时
     private Timer mTimer;
     private TimerTask mTimerTask;
     private boolean mIsCounting = false;
     private CountingListener mCountListener;
+    private int countingTextColor;
+    private int defaultTextColor;
+    private int countingBackground;
+    private Drawable defaultBackground;
 
     private Handler mHandler = new Handler() {
         @Override
         public void handleMessage(Message msg) {
             switch (msg.what) {
-                case DOING:
+                case COUNTING:
                     if (mAutoCounting) saveTick(mTick);
                     setButtonClickable(false);
                     mIsCounting = true;
@@ -45,7 +49,7 @@ public class TimerButton extends android.support.v7.widget.AppCompatTextView{
                     setButtonClickable(true);
                     mIsCounting = false;
                     if (mCountListener != null) {
-                        mCountListener.onCountingFinish();
+                        mCountListener.onFinished();
                     }
                     stop();
                     mTick = mCountingDownStart;
@@ -80,9 +84,14 @@ public class TimerButton extends android.support.v7.widget.AppCompatTextView{
     }
 
     private void initAttrs(AttributeSet attrs) {
+        defaultTextColor = getCurrentTextColor();
+        countingTextColor = defaultTextColor;
+        defaultBackground = getBackground();
         TypedArray array = mContext.obtainStyledAttributes(attrs, R.styleable.TimerButton);
-        mAutoCounting = array.getBoolean(R.styleable.TimerButton_autoCounting,true);
-        mCountingDownStart = array.getInteger(R.styleable.TimerButton_countingStart,COUNT_DOWN_DEFAULT);
+        mAutoCounting = array.getBoolean(R.styleable.TimerButton_TimerButton_autoCounting,true);
+        mCountingDownStart = array.getInteger(R.styleable.TimerButton_TimerButton_from,COUNT_DOWN_DEFAULT);
+        countingTextColor = array.getColor(R.styleable.TimerButton_TimerButton_countingTextColor,defaultTextColor);
+        countingBackground = array.getResourceId(R.styleable.TimerButton_TimerButton_countingBackground,-1);
         mTick = mCountingDownStart;
         if (mAutoCounting){
             long tick = pickTick();
@@ -99,7 +108,7 @@ public class TimerButton extends android.support.v7.widget.AppCompatTextView{
             @Override
             public void run() {
                 mTick -= 1000;
-                mHandler.sendEmptyMessage(DOING);
+                mHandler.sendEmptyMessage(COUNTING);
                 if (mTick / 1000 == 0) {
                     mTimer.cancel();
                     mHandler.sendEmptyMessage(DONE);
@@ -152,7 +161,7 @@ public class TimerButton extends android.support.v7.widget.AppCompatTextView{
         /**
          * 倒计时结束
          */
-        void onCountingFinish();
+        void onFinished();
     }
 
     public void setOnCountingListener(CountingListener listener) {
@@ -161,6 +170,15 @@ public class TimerButton extends android.support.v7.widget.AppCompatTextView{
 
     public void setButtonClickable(boolean clickable) {
         setClickable(clickable);
+        if (clickable){
+            setTextColor(defaultTextColor);
+            setBackground(defaultBackground);
+        }else{
+            setTextColor(countingTextColor);
+            if (countingBackground != -1){
+                setBackgroundResource(countingBackground);
+            }
+        }
     }
 
     public void saveTick(long tick){

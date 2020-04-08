@@ -1,0 +1,4 @@
+#Wed Apr 08 15:05:55 CST 2020
+base.0=/Users/channey/projects_github/TimerButton/sample/build/intermediates/dex/debug/mergeDexDebug/out
+path.0=classes.dex
+renamed.0=classes.dex

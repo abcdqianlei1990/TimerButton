@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/TimerButton.iml" filepath="$PROJECT_DIR$/TimerButton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/TimerButton-app.iml" filepath="$PROJECT_DIR$/app/TimerButton-app.iml" group="TimerButton/app" />
+      <module fileurl="file://$PROJECT_DIR$/sample/TimerButton-sample.iml" filepath="$PROJECT_DIR$/sample/TimerButton-sample.iml" group="TimerButton/sample" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projects_github-TimerButton.iml" filepath="$PROJECT_DIR$/projects_github-TimerButton.iml" group="TimerButton" />
       <module fileurl="file://$PROJECT_DIR$/sample/sample.iml" filepath="$PROJECT_DIR$/sample/sample.iml" />
     </modules>
   </component>
