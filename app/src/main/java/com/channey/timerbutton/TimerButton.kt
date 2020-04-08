@@ -37,15 +37,7 @@ class TimerButton : AppCompatTextView {
                     }
                 }
                 DONE -> {
-                    Log.d(TAG, "counting down finished.")
-                    clearTick()
-                    setButtonClickable(true)
-                    isCounting = false
-                    if (mCountListener != null) {
-                        mCountListener!!.onFinished()
-                    }
-                    stopTimer()
-                    mTick = mCountingDownStart
+                    stop()
                 }
             }
             super.handleMessage(msg)
@@ -114,9 +106,24 @@ class TimerButton : AppCompatTextView {
      *
      */
     fun start() {
-        Log.d(TAG, "timer start.")
+        Log.d(TAG, "counting start.")
         stopTimer()
         taskSchedule()
+    }
+
+    /**
+     * 终止倒计时
+     */
+    fun stop(){
+        Log.d(TAG, "counting stop.")
+        clearTick()
+        setButtonClickable(true)
+        isCounting = false
+        if (mCountListener != null) {
+            mCountListener!!.onFinished()
+        }
+        stopTimer()
+        mTick = mCountingDownStart
     }
 
     private fun getTimeLeft():Long{
@@ -165,7 +172,7 @@ class TimerButton : AppCompatTextView {
         mCountListener = listener
     }
 
-    fun setButtonClickable(clickable: Boolean) {
+    private fun setButtonClickable(clickable: Boolean) {
         isClickable = clickable
         if (clickable) {
             setTextColor(defaultTextColor)
@@ -178,7 +185,7 @@ class TimerButton : AppCompatTextView {
         }
     }
 
-    fun saveTick(tick: Long) {
+    private fun saveTick(tick: Long) {
         SharedPreferencesUtils.saveLong(mContext, id.toString(), tick)
 //        Log.d(TAG,"save tick key : $id ,tick：$tick");
     }
@@ -189,7 +196,7 @@ class TimerButton : AppCompatTextView {
         return long
     }
 
-    fun clearTick() {
+    private fun clearTick() {
         Log.d(TAG,"clear tick key : $id");
         SharedPreferencesUtils.remove(mContext, id.toString())
         SharedPreferencesUtils.remove(mContext, KEY_TIME_LEFT)
